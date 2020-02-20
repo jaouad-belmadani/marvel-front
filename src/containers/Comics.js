@@ -8,7 +8,9 @@ const Comics = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get("http://localhost:3001/comics");
+      const response = await axios.get(
+        "https://jaouad-marvel-back.herokuapp.com/comics"
+      );
 
       setData(response.data.data);
       setIsLoading(false);

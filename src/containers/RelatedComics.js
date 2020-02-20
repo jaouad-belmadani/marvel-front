@@ -11,7 +11,7 @@ const RelatedComics = props => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `http://localhost:3001/characters/comics/${id}`
+        `https://jaouad-marvel-back.herokuapp.com/comics/${id}`
       );
       setData(response.data);
       setIsLoading(false);
