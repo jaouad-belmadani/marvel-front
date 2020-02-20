@@ -14,12 +14,12 @@ const Header = () => {
       <nav>
         <ul>
           <Link className="link-nav" to="/">
-            <li>personnages</li>
+            <li>Characters</li>
           </Link>
           <Link className="link-nav" to="/comics">
-            <li>comics</li>
+            <li>Comics</li>
           </Link>
-          <li>favoris</li>
+          <li>Favoris</li>
         </ul>
       </nav>
     </header>
